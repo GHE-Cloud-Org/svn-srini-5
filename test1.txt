@@ -1,0 +1,17 @@
+$ svn checkout file://$PWD/myrepo mycheckout
+Checked out revision 0.
+$ cd mycheckout/
+$ mkdir -v trunk branches tags
+mkdir: created directory `trunk'
+mkdir: created directory `branches'
+mkdir: created directory `tags'
+$ svn add *
+A         branches
+A         tags
+A         trunk
+$ svn commit -m 'created standard layout'
+Adding         branches
+Adding         tags
+Adding         trunk
+
+Committed revision 1.

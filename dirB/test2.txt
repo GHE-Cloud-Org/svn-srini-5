@@ -1,0 +1,9 @@
+$ svnadmin create myrepo
+$ tree myrepo/ -L 1
+myrepo/
+├── conf/
+├── db/
+├── format
+├── hooks/
+├── locks/
+└── README.txt
